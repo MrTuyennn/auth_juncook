@@ -14,6 +14,8 @@
 		7A687CB22B91ADB8008FD8C3 /* auth_juncookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A687CB12B91ADB8008FD8C3 /* auth_juncookTests.swift */; };
 		7A687CBC2B91ADB8008FD8C3 /* auth_juncookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A687CBB2B91ADB8008FD8C3 /* auth_juncookUITests.swift */; };
 		7A687CBE2B91ADB8008FD8C3 /* auth_juncookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A687CBD2B91ADB8008FD8C3 /* auth_juncookUITestsLaunchTests.swift */; };
+		7A687CCB2B91B24E008FD8C3 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A687CCA2B91B24E008FD8C3 /* CircleImage.swift */; };
+		7A687CCD2B91B4D1008FD8C3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A687CCC2B91B4D1008FD8C3 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		7A687CB72B91ADB8008FD8C3 /* auth_juncookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = auth_juncookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A687CBB2B91ADB8008FD8C3 /* auth_juncookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auth_juncookUITests.swift; sourceTree = "<group>"; };
 		7A687CBD2B91ADB8008FD8C3 /* auth_juncookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auth_juncookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7A687CCA2B91B24E008FD8C3 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		7A687CCC2B91B4D1008FD8C3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				7A687CA22B91ADB6008FD8C3 /* ContentView.swift */,
 				7A687CA42B91ADB8008FD8C3 /* Assets.xcassets */,
 				7A687CA62B91ADB8008FD8C3 /* Preview Content */,
+				7A687CCA2B91B24E008FD8C3 /* CircleImage.swift */,
+				7A687CCC2B91B4D1008FD8C3 /* MapView.swift */,
 			);
 			path = auth_juncook;
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A687CA32B91ADB6008FD8C3 /* ContentView.swift in Sources */,
+				7A687CCD2B91B4D1008FD8C3 /* MapView.swift in Sources */,
 				7A687CA12B91ADB6008FD8C3 /* auth_juncookApp.swift in Sources */,
+				7A687CCB2B91B24E008FD8C3 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
