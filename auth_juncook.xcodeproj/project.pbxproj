@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A687CA12B91ADB6008FD8C3 /* auth_juncookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A687CA02B91ADB6008FD8C3 /* auth_juncookApp.swift */; };
+		7A687CA32B91ADB6008FD8C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A687CA22B91ADB6008FD8C3 /* ContentView.swift */; };
+		7A687CA52B91ADB8008FD8C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A687CA42B91ADB8008FD8C3 /* Assets.xcassets */; };
+		7A687CA82B91ADB8008FD8C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A687CA72B91ADB8008FD8C3 /* Preview Assets.xcassets */; };
+		7A687CB22B91ADB8008FD8C3 /* auth_juncookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A687CB12B91ADB8008FD8C3 /* auth_juncookTests.swift */; };
+		7A687CBC2B91ADB8008FD8C3 /* auth_juncookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A687CBB2B91ADB8008FD8C3 /* auth_juncookUITests.swift */; };
+		7A687CBE2B91ADB8008FD8C3 /* auth_juncookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A687CBD2B91ADB8008FD8C3 /* auth_juncookUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A687CAE2B91ADB8008FD8C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A687C952B91ADB6008FD8C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A687C9C2B91ADB6008FD8C3;
+			remoteInfo = auth_juncook;
+		};
+		7A687CB82B91ADB8008FD8C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A687C952B91ADB6008FD8C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A687C9C2B91ADB6008FD8C3;
+			remoteInfo = auth_juncook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A687C9D2B91ADB6008FD8C3 /* auth_juncook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = auth_juncook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A687CA02B91ADB6008FD8C3 /* auth_juncookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auth_juncookApp.swift; sourceTree = "<group>"; };
+		7A687CA22B91ADB6008FD8C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A687CA42B91ADB8008FD8C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A687CA72B91ADB8008FD8C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A687CAD2B91ADB8008FD8C3 /* auth_juncookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = auth_juncookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A687CB12B91ADB8008FD8C3 /* auth_juncookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auth_juncookTests.swift; sourceTree = "<group>"; };
+		7A687CB72B91ADB8008FD8C3 /* auth_juncookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = auth_juncookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A687CBB2B91ADB8008FD8C3 /* auth_juncookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auth_juncookUITests.swift; sourceTree = "<group>"; };
+		7A687CBD2B91ADB8008FD8C3 /* auth_juncookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auth_juncookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A687C9A2B91ADB6008FD8C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A687CAA2B91ADB8008FD8C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A687CB42B91ADB8008FD8C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A687C942B91ADB6008FD8C3 = {
+			isa = PBXGroup;
+			children = (
+				7A687C9F2B91ADB6008FD8C3 /* auth_juncook */,
+				7A687CB02B91ADB8008FD8C3 /* auth_juncookTests */,
+				7A687CBA2B91ADB8008FD8C3 /* auth_juncookUITests */,
+				7A687C9E2B91ADB6008FD8C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A687C9E2B91ADB6008FD8C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A687C9D2B91ADB6008FD8C3 /* auth_juncook.app */,
+				7A687CAD2B91ADB8008FD8C3 /* auth_juncookTests.xctest */,
+				7A687CB72B91ADB8008FD8C3 /* auth_juncookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A687C9F2B91ADB6008FD8C3 /* auth_juncook */ = {
+			isa = PBXGroup;
+			children = (
+				7A687CA02B91ADB6008FD8C3 /* auth_juncookApp.swift */,
+				7A687CA22B91ADB6008FD8C3 /* ContentView.swift */,
+				7A687CA42B91ADB8008FD8C3 /* Assets.xcassets */,
+				7A687CA62B91ADB8008FD8C3 /* Preview Content */,
+			);
+			path = auth_juncook;
+			sourceTree = "<group>";
+		};
+		7A687CA62B91ADB8008FD8C3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7A687CA72B91ADB8008FD8C3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7A687CB02B91ADB8008FD8C3 /* auth_juncookTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A687CB12B91ADB8008FD8C3 /* auth_juncookTests.swift */,
+			);
+			path = auth_juncookTests;
+			sourceTree = "<group>";
+		};
+		7A687CBA2B91ADB8008FD8C3 /* auth_juncookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A687CBB2B91ADB8008FD8C3 /* auth_juncookUITests.swift */,
+				7A687CBD2B91ADB8008FD8C3 /* auth_juncookUITestsLaunchTests.swift */,
+			);
+			path = auth_juncookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A687C9C2B91ADB6008FD8C3 /* auth_juncook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A687CC12B91ADB8008FD8C3 /* Build configuration list for PBXNativeTarget "auth_juncook" */;
+			buildPhases = (
+				7A687C992B91ADB6008FD8C3 /* Sources */,
+				7A687C9A2B91ADB6008FD8C3 /* Frameworks */,
+				7A687C9B2B91ADB6008FD8C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = auth_juncook;
+			productName = auth_juncook;
+			productReference = 7A687C9D2B91ADB6008FD8C3 /* auth_juncook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A687CAC2B91ADB8008FD8C3 /* auth_juncookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A687CC42B91ADB8008FD8C3 /* Build configuration list for PBXNativeTarget "auth_juncookTests" */;
+			buildPhases = (
+				7A687CA92B91ADB8008FD8C3 /* Sources */,
+				7A687CAA2B91ADB8008FD8C3 /* Frameworks */,
+				7A687CAB2B91ADB8008FD8C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A687CAF2B91ADB8008FD8C3 /* PBXTargetDependency */,
+			);
+			name = auth_juncookTests;
+			productName = auth_juncookTests;
+			productReference = 7A687CAD2B91ADB8008FD8C3 /* auth_juncookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A687CB62B91ADB8008FD8C3 /* auth_juncookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A687CC72B91ADB8008FD8C3 /* Build configuration list for PBXNativeTarget "auth_juncookUITests" */;
+			buildPhases = (
+				7A687CB32B91ADB8008FD8C3 /* Sources */,
+				7A687CB42B91ADB8008FD8C3 /* Frameworks */,
+				7A687CB52B91ADB8008FD8C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A687CB92B91ADB8008FD8C3 /* PBXTargetDependency */,
+			);
+			name = auth_juncookUITests;
+			productName = auth_juncookUITests;
+			productReference = 7A687CB72B91ADB8008FD8C3 /* auth_juncookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A687C952B91ADB6008FD8C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					7A687C9C2B91ADB6008FD8C3 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					7A687CAC2B91ADB8008FD8C3 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7A687C9C2B91ADB6008FD8C3;
+					};
+					7A687CB62B91ADB8008FD8C3 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7A687C9C2B91ADB6008FD8C3;
+					};
+				};
+			};
+			buildConfigurationList = 7A687C982B91ADB6008FD8C3 /* Build configuration list for PBXProject "auth_juncook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A687C942B91ADB6008FD8C3;
+			productRefGroup = 7A687C9E2B91ADB6008FD8C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A687C9C2B91ADB6008FD8C3 /* auth_juncook */,
+				7A687CAC2B91ADB8008FD8C3 /* auth_juncookTests */,
+				7A687CB62B91ADB8008FD8C3 /* auth_juncookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A687C9B2B91ADB6008FD8C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A687CA82B91ADB8008FD8C3 /* Preview Assets.xcassets in Resources */,
+				7A687CA52B91ADB8008FD8C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A687CAB2B91ADB8008FD8C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A687CB52B91ADB8008FD8C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A687C992B91ADB6008FD8C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A687CA32B91ADB6008FD8C3 /* ContentView.swift in Sources */,
+				7A687CA12B91ADB6008FD8C3 /* auth_juncookApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A687CA92B91ADB8008FD8C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A687CB22B91ADB8008FD8C3 /* auth_juncookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A687CB32B91ADB8008FD8C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A687CBE2B91ADB8008FD8C3 /* auth_juncookUITestsLaunchTests.swift in Sources */,
+				7A687CBC2B91ADB8008FD8C3 /* auth_juncookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A687CAF2B91ADB8008FD8C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A687C9C2B91ADB6008FD8C3 /* auth_juncook */;
+			targetProxy = 7A687CAE2B91ADB8008FD8C3 /* PBXContainerItemProxy */;
+		};
+		7A687CB92B91ADB8008FD8C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A687C9C2B91ADB6008FD8C3 /* auth_juncook */;
+			targetProxy = 7A687CB82B91ADB8008FD8C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7A687CBF2B91ADB8008FD8C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A687CC02B91ADB8008FD8C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A687CC22B91ADB8008FD8C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"auth_juncook/Preview Content\"";
+				DEVELOPMENT_TEAM = UMWAV3889L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juncook.auth-juncook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A687CC32B91ADB8008FD8C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"auth_juncook/Preview Content\"";
+				DEVELOPMENT_TEAM = UMWAV3889L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juncook.auth-juncook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A687CC52B91ADB8008FD8C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UMWAV3889L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juncook.auth-juncookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/auth_juncook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/auth_juncook";
+			};
+			name = Debug;
+		};
+		7A687CC62B91ADB8008FD8C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UMWAV3889L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juncook.auth-juncookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/auth_juncook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/auth_juncook";
+			};
+			name = Release;
+		};
+		7A687CC82B91ADB8008FD8C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UMWAV3889L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juncook.auth-juncookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = auth_juncook;
+			};
+			name = Debug;
+		};
+		7A687CC92B91ADB8008FD8C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UMWAV3889L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juncook.auth-juncookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = auth_juncook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A687C982B91ADB6008FD8C3 /* Build configuration list for PBXProject "auth_juncook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A687CBF2B91ADB8008FD8C3 /* Debug */,
+				7A687CC02B91ADB8008FD8C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A687CC12B91ADB8008FD8C3 /* Build configuration list for PBXNativeTarget "auth_juncook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A687CC22B91ADB8008FD8C3 /* Debug */,
+				7A687CC32B91ADB8008FD8C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A687CC42B91ADB8008FD8C3 /* Build configuration list for PBXNativeTarget "auth_juncookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A687CC52B91ADB8008FD8C3 /* Debug */,
+				7A687CC62B91ADB8008FD8C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A687CC72B91ADB8008FD8C3 /* Build configuration list for PBXNativeTarget "auth_juncookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A687CC82B91ADB8008FD8C3 /* Debug */,
+				7A687CC92B91ADB8008FD8C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A687C952B91ADB6008FD8C3 /* Project object */;
+}
