@@ -16,6 +16,9 @@
 		7A687CBE2B91ADB8008FD8C3 /* auth_juncookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A687CBD2B91ADB8008FD8C3 /* auth_juncookUITestsLaunchTests.swift */; };
 		7A687CCB2B91B24E008FD8C3 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A687CCA2B91B24E008FD8C3 /* CircleImage.swift */; };
 		7A687CCD2B91B4D1008FD8C3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A687CCC2B91B4D1008FD8C3 /* MapView.swift */; };
+		7A687CCF2B93565C008FD8C3 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 7A687CCE2B93565C008FD8C3 /* Resources */; };
+		7A687CD12B935693008FD8C3 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A687CD02B935693008FD8C3 /* Landmark.swift */; };
+		7A687CD32B935809008FD8C3 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A687CD22B935809008FD8C3 /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		7A687CBD2B91ADB8008FD8C3 /* auth_juncookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auth_juncookUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7A687CCA2B91B24E008FD8C3 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		7A687CCC2B91B4D1008FD8C3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7A687CCE2B93565C008FD8C3 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		7A687CD02B935693008FD8C3 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		7A687CD22B935809008FD8C3 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +104,12 @@
 		7A687C9F2B91ADB6008FD8C3 /* auth_juncook */ = {
 			isa = PBXGroup;
 			children = (
+				7A687CD52B9358F3008FD8C3 /* Model */,
+				7A687CD42B9358E7008FD8C3 /* Views */,
+				7A687CCE2B93565C008FD8C3 /* Resources */,
 				7A687CA02B91ADB6008FD8C3 /* auth_juncookApp.swift */,
-				7A687CA22B91ADB6008FD8C3 /* ContentView.swift */,
 				7A687CA42B91ADB8008FD8C3 /* Assets.xcassets */,
 				7A687CA62B91ADB8008FD8C3 /* Preview Content */,
-				7A687CCA2B91B24E008FD8C3 /* CircleImage.swift */,
-				7A687CCC2B91B4D1008FD8C3 /* MapView.swift */,
 			);
 			path = auth_juncook;
 			sourceTree = "<group>";
@@ -131,6 +137,25 @@
 				7A687CBD2B91ADB8008FD8C3 /* auth_juncookUITestsLaunchTests.swift */,
 			);
 			path = auth_juncookUITests;
+			sourceTree = "<group>";
+		};
+		7A687CD42B9358E7008FD8C3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A687CA22B91ADB6008FD8C3 /* ContentView.swift */,
+				7A687CCA2B91B24E008FD8C3 /* CircleImage.swift */,
+				7A687CCC2B91B4D1008FD8C3 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7A687CD52B9358F3008FD8C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A687CD02B935693008FD8C3 /* Landmark.swift */,
+				7A687CD22B935809008FD8C3 /* ModelData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +264,7 @@
 			files = (
 				7A687CA82B91ADB8008FD8C3 /* Preview Assets.xcassets in Resources */,
 				7A687CA52B91ADB8008FD8C3 /* Assets.xcassets in Resources */,
+				7A687CCF2B93565C008FD8C3 /* Resources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +293,8 @@
 				7A687CCD2B91B4D1008FD8C3 /* MapView.swift in Sources */,
 				7A687CA12B91ADB6008FD8C3 /* auth_juncookApp.swift in Sources */,
 				7A687CCB2B91B24E008FD8C3 /* CircleImage.swift in Sources */,
+				7A687CD12B935693008FD8C3 /* Landmark.swift in Sources */,
+				7A687CD32B935809008FD8C3 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
